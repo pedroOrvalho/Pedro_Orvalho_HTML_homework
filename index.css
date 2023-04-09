@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.banner {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 250px;
+}
+
+.banner h1 {
+    font-size: 85px;
+    font-family: "Anton", sans-serif;
+    margin: 0px 0px;
+    margin-top: 0px;
+}
+
+.banner h2 {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: -20px;
+}
+
+.first_section {
+    margin: 50px 200px;
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.first_section p {
+    font-size: 23px;
+    height: auto;
+    width: 800px;
+    margin-right: 300px;
+}
+
+iframe {
+    width: 800px;
+    height: 354px;
+}
+
+.second_section {
+    width: auto;
+    height: 450px;
+    margin: 100px 200px;
+    margin-bottom: 50px;
+}
+
+.second_section h3 {
+    font-size: 50px;
+}
+
+.second_section ul {
+    font-size: 20px;
+    margin: 50px 75px;
+}
+
+.second_section li {
+    margin: 15px 0px;
+}
+
+.third_section {
+    margin: 100px 200px;
+}
+
+.third_section_h3 {
+    font-size: 50px;
+}
+
+.third_section ol {
+    margin: 50px 75px;
+}
+
+.third_section_p {
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(221, 224, 227, 0.935);
+}
+
+.third_section_h {
+    font-size: 20px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

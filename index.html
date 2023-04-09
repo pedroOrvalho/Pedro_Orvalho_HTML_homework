@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>The Solar System</title>
 </head>
 <body>
-    <div class="first section">
-        <h1>The solar system</h1>
+    <div class="banner">
+        <h1>The solar system</h1>       
         <h2>Let's explore the fun facts</h2>
+    </div>
+    <div class="first_section">    
         <iframe width="560" height="315" src="https://www.youtube.com/embed/mQrlgH97v94" title="The Planet Song - 8 Planets of the Solar System Song for Kids | KidsLearningTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p>Our solar system consists of the sun and everything that orbits that sun, like the eight (once nine) planets we all know from elementary school. But the main planets, as diverse and fascinating as they are, are just the beginning. Earth's neighbors in space include comets, asteroids, dwarf planets, mysterious moons and a host of strange phenomena that are so out-of-this-world they elude explanation</p>
     </div>
-    
     <hr>
    
-    <div class="second section">
+    <div class="second_section">
         <h3>About the solar system</h3>
         <ul>
             <li>The Solar System is all the planets and other things in space that orbit (go around) our sun</li>
@@ -28,20 +33,20 @@
     
     <hr>
     
-    <div class="third section">
-        <h3>Some fun facts that you may not know</h3>
+    <div class="third_section">
+        <h3 class="third_section_h3">Some fun facts that you may not know</h3>
         <ol>
             <li>
-                <h3>THE SOLAR SYSTEM IS REALLY, REALLY BIG</h3>
-                <p>NASA's Voyager 1 spacecraft was launched in 1977. More than three decades later, in 2012, it became the first human-made object to enter interstellar space by crossing the heliopause, or the edge of the heliosphere. That's the boundary beyond which most of the sun's ejected particles and magnetic fields dissipate.</p>
+                <h3 class="third_section_h">THE SOLAR SYSTEM IS REALLY, REALLY BIG</h3>
+                <p class="third_section_p">NASA's Voyager 1 spacecraft was launched in 1977. More than three decades later, in 2012, it became the first human-made object to enter interstellar space by crossing the heliopause, or the edge of the heliosphere. That's the boundary beyond which most of the sun's ejected particles and magnetic fields dissipate.</p>
             </li>
             <li>
-                <h3>EVEN JUST OUR NEIGHBORHOOD IS REALLY, REALLY BIG</h3>
-                <p>Depending on how carefully you do the calculations and how you arrange them, all of the planets in the solar system could fit in between Earth and its moon</p>
+                <h3 class="third_section_h">EVEN JUST OUR NEIGHBORHOOD IS REALLY, REALLY BIG</h3>
+                <p class="third_section_p">Depending on how carefully you do the calculations and how you arrange them, all of the planets in the solar system could fit in between Earth and its moon</p>
             </li>
             <li>
-                <h3>URANUS SPINS SIDEWAYS</h3>
-                <p>Uranus usually appears in classroom solar system models as a featureless blue ball, but this gas giant of the outer solar system is pretty weird on closer inspection. First, the planet rotates on its side, appearing to roll around the sun like a ball, according to NASA's Uranus guide(opens in new tab). The most likely explanation for the planet's unusual orientation (about 90 degrees sideways compared to the other planets) is that it underwent some sort of titanic collision in the ancient past. </p>
+                <h3 class="third_section_h">URANUS SPINS SIDEWAYS</h3>
+                <p class="third_section_p">Uranus usually appears in classroom solar system models as a featureless blue ball, but this gas giant of the outer solar system is pretty weird on closer inspection. First, the planet rotates on its side, appearing to roll around the sun like a ball, according to NASA's Uranus guide(opens in new tab). The most likely explanation for the planet's unusual orientation (about 90 degrees sideways compared to the other planets) is that it underwent some sort of titanic collision in the ancient past. </p>
             </li>   
         </ol>
     </div>
@@ -51,14 +56,18 @@
     <div class="subscribe">
         <h3>Subscribe to receive the latest news</h3>
         <form>
+            <div>
             <label for="name">Your name</label>
             <input type="text" placeholder="Enter your name">
+            </div>
             <br>
+            <div>
             <label for="email">Your email</label>
             <input type="text" placeholder="Enter your email">
+            </div>
             <br>
-            <button>Subscribe</button>
         </form>
+        <button>Subscribe</button>
     </div>
 </body>
 </html>
